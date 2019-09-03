@@ -1,0 +1,287 @@
+
+*** Running vivado
+    with args -log LUT_Y.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source LUT_Y.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source LUT_Y.tcl -notrace
+Command: synth_design -top LUT_Y -part xcvu080-ffva2104-3-e -directive RuntimeOptimized -retiming -control_set_opt_threshold 1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xcvu080'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvu080'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 24568 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 401.457 ; gain = 101.605
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'LUT_Y' [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:37]
+	Parameter w bound to: 255 - type: integer 
+INFO: [Synth 8-3491] module 'MADD' declared at 'D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/MADD.vhd:7' bound to instance 'u2' of component 'MADD' [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'MADD' [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/MADD.vhd:15]
+	Parameter w bound to: 255 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'MADD' (1#1) [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/MADD.vhd:15]
+	Parameter w bound to: 255 - type: integer 
+INFO: [Synth 8-3491] module 'MADD' declared at 'D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/MADD.vhd:7' bound to instance 'u4' of component 'MADD' [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:60]
+WARNING: [Synth 8-614] signal 'Y' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:102]
+WARNING: [Synth 8-614] signal 'LUT2' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:102]
+WARNING: [Synth 8-614] signal 'LUT3' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:102]
+WARNING: [Synth 8-614] signal 'LUT4' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:102]
+WARNING: [Synth 8-614] signal 'LUT5' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:102]
+WARNING: [Synth 8-614] signal 'LUT6' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:102]
+WARNING: [Synth 8-614] signal 'LUT7' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:102]
+INFO: [Synth 8-256] done synthesizing module 'LUT_Y' (2#1) [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:37]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 453.809 ; gain = 153.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 453.809 ; gain = 153.957
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xcvu080-ffva2104-3-e
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 453.809 ; gain = 153.957
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xcvu080-ffva2104-3-e
+INFO: [Synth 8-4471] merging register 'B1_reg[254:0]' into 'A1_reg[254:0]' [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:59]
+WARNING: [Synth 8-6014] Unused sequential element B1_reg was removed.  [D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sources_1/new/LUTY.vhd:59]
+INFO: [Synth 8-802] inferred FSM for state register 'ST_reg' in module 'LUT_Y'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      t0 |                              000 |                              000
+                      t1 |                              001 |                              001
+                      t2 |                              010 |                              010
+                      t3 |                              011 |                              011
+                      t4 |                              100 |                              100
+                      t5 |                              101 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'ST_reg' using encoding 'sequential' in module 'LUT_Y'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 453.809 ; gain = 153.957
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    256 Bit       Adders := 2     
+	   2 Input    255 Bit       Adders := 2     
++---XORs : 
+	   3 Input    255 Bit         XORs := 2     
++---Registers : 
+	              255 Bit    Registers := 8     
++---Muxes : 
+	   2 Input    255 Bit        Muxes := 2     
+	   6 Input    255 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module LUT_Y 
+Detailed RTL Component Info : 
++---Registers : 
+	              255 Bit    Registers := 8     
++---Muxes : 
+	   6 Input    255 Bit        Muxes := 1     
+	   6 Input      3 Bit        Muxes := 1     
+	   6 Input      1 Bit        Muxes := 6     
+Module MADD 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    256 Bit       Adders := 1     
+	   2 Input    255 Bit       Adders := 1     
++---XORs : 
+	   3 Input    255 Bit         XORs := 1     
++---Muxes : 
+	   2 Input    255 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 672 (col length:192)
+BRAMs: 2842 (col length: RAMB18 192 RAMB36 96)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 983.117 ; gain = 683.266
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5816] Retiming module `LUT_Y`
+	Effective logic levels is 1, the effective logic levels of whole design is 1
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `LUT_Y' done
+
+
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 986.109 ; gain = 686.258
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 986.109 ; gain = 686.258
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 986.109 ; gain = 686.258
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 986.109 ; gain = 686.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 986.109 ; gain = 686.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 986.109 ; gain = 686.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 986.109 ; gain = 686.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY8 |    96|
+|3     |LUT1   |     2|
+|4     |LUT2   |     3|
+|5     |LUT3   |   513|
+|6     |LUT4   |   514|
+|7     |LUT5   |   510|
+|8     |LUT6   |   508|
+|9     |MUXF7  |   255|
+|10    |FDCE   |     3|
+|11    |FDRE   |  2040|
+|12    |IBUF   |   260|
+|13    |OBUF   |   258|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |  4963|
+|2     |  u2     |MADD   |  1081|
+|3     |  u4     |MADD_0 |   290|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 986.109 ; gain = 686.258
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 986.109 ; gain = 686.258
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 986.109 ; gain = 686.258
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 612 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 261 instances were transformed.
+  BUFG => BUFGCE: 1 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 260 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+20 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1067.387 ; gain = 783.637
+INFO: [Common 17-1381] The checkpoint 'D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.runs/synth_3/LUT_Y.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file LUT_Y_utilization_synth.rpt -pb LUT_Y_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.564 . Memory (MB): peak = 1067.387 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 26 20:59:46 2019...

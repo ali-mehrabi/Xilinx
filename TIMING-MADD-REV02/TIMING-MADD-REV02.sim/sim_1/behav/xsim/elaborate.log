@@ -1,0 +1,26 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 0f324ac272d94e9aae105dfe020c7b98 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot INTMM_tb_behav xil_defaultlib.INTMM_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.curve_pack
+Compiling architecture behavioral of entity xil_defaultlib.CSA1 [csa1_default]
+Compiling architecture behavioral of entity xil_defaultlib.CSA2 [csa2_default]
+Compiling architecture behavioral of entity xil_defaultlib.REGCSA [regcsa_default]
+Compiling architecture behavioral of entity xil_defaultlib.SELUNIT [selunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_P [lut_p_default]
+Compiling architecture behavioral of entity xil_defaultlib.MADD [madd_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_Y [lut_y_default]
+Compiling architecture behavioral of entity xil_defaultlib.REDUCER [reducer_default]
+Compiling architecture behavioral of entity xil_defaultlib.INTLVD_RED [intlvd_red_default]
+Compiling architecture behavioral of entity xil_defaultlib.intmm_tb
+Built simulation snapshot INTMM_tb_behav

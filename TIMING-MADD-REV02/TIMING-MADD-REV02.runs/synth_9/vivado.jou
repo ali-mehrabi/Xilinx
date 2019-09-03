@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Aug 28 14:13:32 2019
+# Process ID: 46288
+# Current directory: D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.runs/synth_9
+# Command line: vivado.exe -log INTLVD_RED.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source INTLVD_RED.tcl
+# Log file: D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.runs/synth_9/INTLVD_RED.vds
+# Journal file: D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.runs/synth_9\vivado.jou
+#-----------------------------------------------------------
+source INTLVD_RED.tcl -notrace

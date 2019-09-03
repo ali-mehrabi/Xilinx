@@ -1,0 +1,18 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/CSA.vhd" \
+"../../../../INTLVD-EDWARDS-ECC-R08.srcs/sources_1/new/CURVE_PACK.vhd" \
+"../../../../INTLVD-EDWARDS-ECC-R08.srcs/sources_1/new/EDPA.vhd" \
+"../../../../../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/INTLVD_RED.vhd" \
+"../../../../../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/LUT_P.vhd" \
+"../../../../../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/LUT_Y.vhd" \
+"../../../../INTLVD-EDWARDS-ECC-R08.srcs/sources_1/new/MADD.vhd" \
+"../../../../INTLVD-EDWARDS-ECC-R08.srcs/sources_1/new/MSUB.vhd" \
+"../../../../../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/REDUCER.vhd" \
+"../../../../../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/REGCSA.vhd" \
+"../../../../../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/SELUNIT.vhd" \
+"../../../../../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/SHMOD.vhd" \
+"../../../../INTLVD-EDWARDS-ECC-R08.srcs/sim_1/new/EDPA_tb.vhd" \
+
+# Do not sort compile order
+nosort

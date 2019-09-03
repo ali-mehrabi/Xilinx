@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.sim/sim_1/synth/func/xsim/LUTY_tb_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity MADD
+INFO: [VRFC 10-307] analyzing entity \MADD__1\
+INFO: [VRFC 10-307] analyzing entity LUT_Y
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/XILINX_PROJECTS/TIMING-MADD/TIMING-MADD.srcs/sim_1/new/LUTY_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity LUTY_tb

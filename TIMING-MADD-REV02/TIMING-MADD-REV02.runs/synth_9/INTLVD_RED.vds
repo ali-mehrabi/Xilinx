@@ -1,0 +1,580 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Wed Aug 28 14:13:32 2019
+# Process ID: 46288
+# Current directory: D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.runs/synth_9
+# Command line: vivado.exe -log INTLVD_RED.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source INTLVD_RED.tcl
+# Log file: D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.runs/synth_9/INTLVD_RED.vds
+# Journal file: D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.runs/synth_9\vivado.jou
+#-----------------------------------------------------------
+source INTLVD_RED.tcl -notrace
+Command: synth_design -top INTLVD_RED -part xc7z045ffg900-3 -flatten_hierarchy none -directive RuntimeOptimized -retiming
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z045'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 47364 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 401.508 ; gain = 102.070
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'INTLVD_RED' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:36]
+	Parameter w bound to: 258 - type: integer 
+INFO: [Synth 8-3491] module 'CSA1' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:168' bound to instance 'U1' of component 'CSA1' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:111]
+INFO: [Synth 8-638] synthesizing module 'CSA1' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:178]
+	Parameter w bound to: 258 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'CSA1' (1#1) [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:178]
+	Parameter w bound to: 259 - type: integer 
+INFO: [Synth 8-3491] module 'CSA2' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:195' bound to instance 'U2' of component 'CSA2' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:112]
+INFO: [Synth 8-638] synthesizing module 'CSA2' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:205]
+	Parameter w bound to: 259 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'CSA2' (2#1) [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:205]
+	Parameter w bound to: 260 - type: integer 
+INFO: [Synth 8-3491] module 'REGCSA' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:227' bound to instance 'U3' of component 'REGCSA' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:113]
+INFO: [Synth 8-638] synthesizing module 'REGCSA' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:237]
+	Parameter w bound to: 260 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'REGCSA' (3#1) [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:237]
+	Parameter w bound to: 260 - type: integer 
+INFO: [Synth 8-3491] module 'REGCSA' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:227' bound to instance 'U4' of component 'REGCSA' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:114]
+INFO: [Synth 8-3491] module 'SELUNIT' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:254' bound to instance 'U5' of component 'SELUNIT' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:115]
+INFO: [Synth 8-638] synthesizing module 'SELUNIT' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:261]
+INFO: [Synth 8-256] done synthesizing module 'SELUNIT' (4#1) [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:261]
+INFO: [Synth 8-3491] module 'LUT_P' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUT_P.vhd:26' bound to instance 'U6' of component 'LUT_P' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'LUT_P' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUT_P.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'LUT_P' (5#1) [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUT_P.vhd:32]
+INFO: [Synth 8-3491] module 'LUT_Y' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:28' bound to instance 'U7' of component 'LUT_Y' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'LUT_Y' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:37]
+	Parameter w bound to: 255 - type: integer 
+INFO: [Synth 8-3491] module 'MADD' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/MADD.vhd:7' bound to instance 'u2' of component 'MADD' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'MADD' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/MADD.vhd:15]
+	Parameter w bound to: 255 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'MADD' (6#1) [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/MADD.vhd:15]
+	Parameter w bound to: 255 - type: integer 
+INFO: [Synth 8-3491] module 'MADD' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/MADD.vhd:7' bound to instance 'u3' of component 'MADD' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:60]
+	Parameter w bound to: 255 - type: integer 
+INFO: [Synth 8-3491] module 'MADD' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/MADD.vhd:7' bound to instance 'u4' of component 'MADD' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:61]
+	Parameter w bound to: 255 - type: integer 
+INFO: [Synth 8-3491] module 'MADD' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/MADD.vhd:7' bound to instance 'u5' of component 'MADD' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:62]
+	Parameter w bound to: 255 - type: integer 
+INFO: [Synth 8-3491] module 'MADD' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/MADD.vhd:7' bound to instance 'u6' of component 'MADD' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:63]
+	Parameter w bound to: 255 - type: integer 
+INFO: [Synth 8-3491] module 'MADD' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/MADD.vhd:7' bound to instance 'u7' of component 'MADD' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:64]
+WARNING: [Synth 8-614] signal 'Y' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:73]
+WARNING: [Synth 8-614] signal 'LUT2' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:73]
+WARNING: [Synth 8-614] signal 'LUT3' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:73]
+WARNING: [Synth 8-614] signal 'LUT4' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:73]
+WARNING: [Synth 8-614] signal 'LUT5' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:73]
+WARNING: [Synth 8-614] signal 'LUT6' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:73]
+WARNING: [Synth 8-614] signal 'LUT7' is read in the process but is not in the sensitivity list [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'LUT_Y' (7#1) [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd:37]
+INFO: [Synth 8-3491] module 'REDUCER' declared at 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/REDUCER.vhd:29' bound to instance 'U8' of component 'REDUCER' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:118]
+INFO: [Synth 8-638] synthesizing module 'REDUCER' [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/REDUCER.vhd:36]
+WARNING: [Synth 8-3936] Found unconnected internal register 'SX_reg' and it is trimmed from '260' to '255' bits. [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/REDUCER.vhd:60]
+INFO: [Synth 8-256] done synthesizing module 'REDUCER' (8#1) [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/REDUCER.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'INTLVD_RED' (9#1) [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:36]
+WARNING: [Synth 8-3331] design LUT_Y has unconnected port RST
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 454.188 ; gain = 154.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 454.188 ; gain = 154.750
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z045ffg900-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 454.188 ; gain = 154.750
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z045ffg900-3
+WARNING: [Synth 8-6014] Unused sequential element k_reg was removed.  [D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd:128]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 523.328 ; gain = 223.891
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |REDUCER__GB0    |           1|     21160|
+|2     |REDUCER__GB1    |           1|     11700|
+|3     |INTLVD_RED__GC0 |           1|     21465|
++------+----------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    260 Bit       Adders := 1     
+	   2 Input    256 Bit       Adders := 6     
+	   2 Input    255 Bit       Adders := 16    
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---XORs : 
+	   2 Input    259 Bit         XORs := 1     
+	   3 Input    255 Bit         XORs := 1     
+	   2 Input    255 Bit         XORs := 6     
+	   2 Input     11 Bit         XORs := 1     
++---Registers : 
+	              260 Bit    Registers := 3     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Multipliers : 
+	                 3x32  Multipliers := 1     
++---Muxes : 
+	   2 Input    255 Bit        Muxes := 7     
+	   9 Input      3 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 4     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module INTLVD_RED 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    260 Bit       Adders := 1     
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	              260 Bit    Registers := 1     
+	                3 Bit    Registers := 2     
+	                1 Bit    Registers := 2     
++---Multipliers : 
+	                 3x32  Multipliers := 1     
++---Muxes : 
+	   9 Input      3 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 4     
+Module REDUCER 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    255 Bit       Adders := 10    
++---Muxes : 
+	   2 Input    255 Bit        Muxes := 1     
+Module CSA1 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input    255 Bit         XORs := 1     
+Module CSA2 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input    259 Bit         XORs := 1     
+	   2 Input     11 Bit         XORs := 1     
+Module REGCSA__1 
+Detailed RTL Component Info : 
++---Registers : 
+	              260 Bit    Registers := 1     
+Module REGCSA 
+Detailed RTL Component Info : 
++---Registers : 
+	              260 Bit    Registers := 1     
+Module SELUNIT 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
+Module MADD__1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    256 Bit       Adders := 1     
+	   2 Input    255 Bit       Adders := 1     
++---XORs : 
+	   2 Input    255 Bit         XORs := 1     
++---Muxes : 
+	   2 Input    255 Bit        Muxes := 1     
+Module MADD__2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    256 Bit       Adders := 1     
+	   2 Input    255 Bit       Adders := 1     
++---XORs : 
+	   2 Input    255 Bit         XORs := 1     
++---Muxes : 
+	   2 Input    255 Bit        Muxes := 1     
+Module MADD__3 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    256 Bit       Adders := 1     
+	   2 Input    255 Bit       Adders := 1     
++---XORs : 
+	   2 Input    255 Bit         XORs := 1     
++---Muxes : 
+	   2 Input    255 Bit        Muxes := 1     
+Module MADD__4 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    256 Bit       Adders := 1     
+	   2 Input    255 Bit       Adders := 1     
++---XORs : 
+	   2 Input    255 Bit         XORs := 1     
++---Muxes : 
+	   2 Input    255 Bit        Muxes := 1     
+Module MADD__5 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    256 Bit       Adders := 1     
+	   2 Input    255 Bit       Adders := 1     
++---XORs : 
+	   2 Input    255 Bit         XORs := 1     
++---Muxes : 
+	   2 Input    255 Bit        Muxes := 1     
+Module MADD 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    256 Bit       Adders := 1     
+	   2 Input    255 Bit       Adders := 1     
++---XORs : 
+	   2 Input    255 Bit         XORs := 1     
++---Muxes : 
+	   2 Input    255 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 900 (col length:140)
+BRAMs: 1090 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'i_0/U4/Z_reg[0]' (FDC) to 'i_0/U4/Z_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_0/U4/Z_reg[1]' (FDC) to 'i_0/U4/Z_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_0/U4/Z_reg[2]' (FDC) to 'i_0/U4/Z_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/U4/Z_reg[3]' (FDC) to 'i_0/U4/Z_reg[259]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U3/\Z_reg[259] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U4/\Z_reg[259] )
+WARNING: [Synth 8-3332] Sequential element (Z_reg[259]) is unused and will be removed from module REGCSA__1.
+WARNING: [Synth 8-3332] Sequential element (Z_reg[259]) is unused and will be removed from module REGCSA.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:06 ; elapsed = 00:01:06 . Memory (MB): peak = 775.742 ; gain = 476.305
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |REDUCER__GB0    |           1|     14165|
+|2     |REDUCER__GB1    |           1|       494|
+|3     |INTLVD_RED__GC0 |           1|      9827|
++------+----------------+------------+----------+
+No constraint files found.
+
+Report RTL Partitions: 
++------+----------------+------------+----------+
+|      |RTL Partition   |Replication |Instances |
++------+----------------+------------+----------+
+|1     |REDUCER__GB0    |           1|     14165|
+|2     |REDUCER__GB1    |           1|       494|
+|3     |INTLVD_RED__GC0 |           1|      9827|
++------+----------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5816] Retiming module `REDUCER`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `REDUCER' done
+
+
+INFO: [Synth 8-5816] Retiming module `partition__3`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `partition__3' done
+
+
+INFO: [Synth 8-5816] Retiming module `CSA1`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `CSA1' done
+
+
+INFO: [Synth 8-5816] Retiming module `partition__4`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `partition__4' done
+
+
+INFO: [Synth 8-5816] Retiming module `CSA2`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `CSA2' done
+
+
+INFO: [Synth 8-5816] Retiming module `REGCSA__1`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `REGCSA__1' done
+
+
+INFO: [Synth 8-5816] Retiming module `REGCSA`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `REGCSA' done
+
+
+INFO: [Synth 8-5816] Retiming module `datapath`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `datapath' done
+
+
+INFO: [Synth 8-5816] Retiming module `SELUNIT`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `SELUNIT' done
+
+
+INFO: [Synth 8-5816] Retiming module `muxpart`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `muxpart' done
+
+
+INFO: [Synth 8-5816] Retiming module `LUT_P`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `LUT_P' done
+
+
+INFO: [Synth 8-5816] Retiming module `partition__5`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `partition__5' done
+
+
+INFO: [Synth 8-5816] Retiming module `MADD__1`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `MADD__1' done
+
+
+INFO: [Synth 8-5816] Retiming module `partition__6`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `partition__6' done
+
+
+INFO: [Synth 8-5816] Retiming module `MADD__2`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `MADD__2' done
+
+
+INFO: [Synth 8-5816] Retiming module `partition__7`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `partition__7' done
+
+
+INFO: [Synth 8-5816] Retiming module `MADD__3`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `MADD__3' done
+
+
+INFO: [Synth 8-5816] Retiming module `partition__8`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `partition__8' done
+
+
+INFO: [Synth 8-5816] Retiming module `MADD__4`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `MADD__4' done
+
+
+INFO: [Synth 8-5816] Retiming module `partition__9`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `partition__9' done
+
+
+INFO: [Synth 8-5816] Retiming module `MADD__5`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `MADD__5' done
+
+
+INFO: [Synth 8-5816] Retiming module `partition__10`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `partition__10' done
+
+
+INFO: [Synth 8-5816] Retiming module `MADD`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `MADD' done
+
+
+INFO: [Synth 8-5816] Retiming module `muxpart__1`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `muxpart__1' done
+
+
+INFO: [Synth 8-5816] Retiming module `LUT_Y`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `LUT_Y' done
+
+
+INFO: [Synth 8-5816] Retiming module `INTLVD_RED`
+	No candidate paths found in current hierarchy level
+	Skipping retiming for this module
+
+INFO: [Synth 8-5816] Retiming module `INTLVD_RED' done
+
+
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:19 ; elapsed = 00:01:19 . Memory (MB): peak = 779.969 ; gain = 480.531
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:21 ; elapsed = 00:01:21 . Memory (MB): peak = 779.969 ; gain = 480.531
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:21 ; elapsed = 00:01:21 . Memory (MB): peak = 779.969 ; gain = 480.531
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:21 ; elapsed = 00:01:21 . Memory (MB): peak = 779.969 ; gain = 480.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |  1626|
+|3     |LUT1   |    83|
+|4     |LUT2   |  3675|
+|5     |LUT3   |  2036|
+|6     |LUT4   |  1034|
+|7     |LUT5   |  1024|
+|8     |LUT6   |   840|
+|9     |MUXF7  |   283|
+|10    |MUXF8  |    14|
+|11    |FDCE   |   810|
+|12    |FDPE   |     4|
+|13    |IBUF   |   512|
+|14    |OBUF   |   255|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------+----------+------+
+|      |Instance |Module    |Cells |
++------+---------+----------+------+
+|1     |top      |          | 12197|
+|2     |  U8     |REDUCER   |  3870|
+|3     |  U1     |CSA1      |   510|
+|4     |  U2     |CSA2      |   510|
+|5     |  U3     |REGCSA__1 |   263|
+|6     |  U4     |REGCSA    |   256|
+|7     |  U5     |SELUNIT   |     5|
+|8     |  U6     |LUT_P     |     8|
+|9     |  U7     |LUT_Y     |  5166|
+|10    |    u2   |MADD__1   |   319|
+|11    |    u3   |MADD__2   |  1148|
+|12    |    u4   |MADD__3   |   319|
+|13    |    u5   |MADD__4   |  1148|
+|14    |    u6   |MADD__5   |   319|
+|15    |    u7   |MADD      |  1148|
++------+---------+----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:21 ; elapsed = 00:01:21 . Memory (MB): peak = 779.969 ; gain = 480.531
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:21 ; elapsed = 00:01:21 . Memory (MB): peak = 779.969 ; gain = 480.531
+Synthesis Optimization Complete : Time (s): cpu = 00:01:21 ; elapsed = 00:01:21 . Memory (MB): peak = 779.969 ; gain = 480.531
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2435 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+99 Infos, 12 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:30 ; elapsed = 00:01:31 . Memory (MB): peak = 887.902 ; gain = 604.816
+INFO: [Common 17-1381] The checkpoint 'D:/XILINX_PROJECTS/TIMING-MADD-REV02/TIMING-MADD-REV02.runs/synth_9/INTLVD_RED.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file INTLVD_RED_utilization_synth.rpt -pb INTLVD_RED_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.211 . Memory (MB): peak = 887.902 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 28 14:15:10 2019...

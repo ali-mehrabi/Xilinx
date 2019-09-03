@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Aug 25 23:58:22 2019
+# Process ID: 18608
+# Current directory: D:/XILINX_PROJECTS/INTLVD-EDWARDS-ECC-R08/INTLVD-EDWARDS-ECC-R08.runs/synth_3
+# Command line: vivado.exe -log EDECC.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source EDECC.tcl
+# Log file: D:/XILINX_PROJECTS/INTLVD-EDWARDS-ECC-R08/INTLVD-EDWARDS-ECC-R08.runs/synth_3/EDECC.vds
+# Journal file: D:/XILINX_PROJECTS/INTLVD-EDWARDS-ECC-R08/INTLVD-EDWARDS-ECC-R08.runs/synth_3\vivado.jou
+#-----------------------------------------------------------
+source EDECC.tcl -notrace

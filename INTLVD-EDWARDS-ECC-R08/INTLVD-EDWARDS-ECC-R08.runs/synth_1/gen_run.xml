@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xcvu11p-flga2577-3-e" LaunchTime="1556535064">
+  <File Type="PA-TCL" Name="EDECC.tcl"/>
+  <File Type="REPORTS-TCL" Name="EDECC_reports.tcl"/>
+  <File Type="RDS-RDS" Name="EDECC.vds"/>
+  <File Type="RDS-UTIL" Name="EDECC_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="EDECC_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="EDECC.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/CSA.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/CURVE_PACK.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../EDWARDS_ECC/EDWARDS_ECC.srcs/sources_1/new/CURVE_PACK.vhd"/>
+        <Attr Name="ImportTime" Val="1553487070"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EDPA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../EDWARDS_ECC/EDWARDS_ECC.srcs/sources_1/new/EDPA.vhd"/>
+        <Attr Name="ImportTime" Val="1553474458"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EDPD.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../EDWARDS_ECC/EDWARDS_ECC.srcs/sources_1/new/EDPD.vhd"/>
+        <Attr Name="ImportTime" Val="1553337636"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/INTLVD_RED.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/LUT_P.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/LUT_Y.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MADD.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../INTRLVD-EDWRDS-ECC-R03/INTRLVD-EDWRDS-ECC-R03.srcs/sources_1/new/MADD.vhd"/>
+        <Attr Name="ImportTime" Val="1556535042"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MSUB.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../INTRLVD-EDWRDS-ECC-R03/INTRLVD-EDWRDS-ECC-R03.srcs/sources_1/new/MSUB.vhd"/>
+        <Attr Name="ImportTime" Val="1556534817"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/REDUCER.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/REGCSA.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/SELUNIT.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../INT-EDWARDS-ECC/INT-EDWARDS-ECC.srcs/sources_1/new/SHMOD.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EDECC.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../EDWARDS_ECC/EDWARDS_ECC.srcs/sources_1/new/EDECC.vhd"/>
+        <Attr Name="ImportTime" Val="1553487999"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FADD.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../INTRLVD-EDWRDS-ECC-R03/INTRLVD-EDWRDS-ECC-R03.srcs/sources_1/new/FADD.vhd"/>
+        <Attr Name="ImportTime" Val="1566177492"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FSUB.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../INTRLVD-EDWRDS-ECC-R03/INTRLVD-EDWRDS-ECC-R03.srcs/sources_1/new/FSUB.vhd"/>
+        <Attr Name="ImportTime" Val="1566177492"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="EDECC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Timing.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../EDWARDS_ECC_R02/EDWARDS_ECC_R02.srcs/constrs_1/new/Timing.xdc"/>
+        <Attr Name="ImportTime" Val="1553568833"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Flow_AreaOptimized_high" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design">
+      <Option Id="ReTiming">1</Option>
+      <Option Id="ControlSetOptThreshold">1</Option>
+      <Option Id="Directive">1</Option>
+      <Option Id="ResourceSharing">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

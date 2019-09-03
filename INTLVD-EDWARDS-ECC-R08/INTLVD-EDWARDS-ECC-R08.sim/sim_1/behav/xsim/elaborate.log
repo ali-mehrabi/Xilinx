@@ -1,0 +1,31 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto dc7ef22bc6a3407aa34ac3b10d1d831b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot EDECC_tb_behav xil_defaultlib.EDECC_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.curve_pack
+Compiling architecture behavioral of entity xil_defaultlib.CSA [\CSA(w=258)\]
+Compiling architecture behavioral of entity xil_defaultlib.CSA [\CSA(w=259)\]
+Compiling architecture behavioral of entity xil_defaultlib.REGCSA [regcsa_default]
+Compiling architecture behavioral of entity xil_defaultlib.SHMOD [shmod_default]
+Compiling architecture behavioral of entity xil_defaultlib.SELUNIT [selunit_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_P [lut_p_default]
+Compiling architecture behavioral of entity xil_defaultlib.MADD [madd_default]
+Compiling architecture behavioral of entity xil_defaultlib.LUT_Y [lut_y_default]
+Compiling architecture behavioral of entity xil_defaultlib.REDUCER [reducer_default]
+Compiling architecture behavioral of entity xil_defaultlib.INTLVD_RED [intlvd_red_default]
+Compiling architecture behavioral of entity xil_defaultlib.MSUB [msub_default]
+Compiling architecture behavioral of entity xil_defaultlib.EDPA [edpa_default]
+Compiling architecture behavioral of entity xil_defaultlib.EDPD [edpd_default]
+Compiling architecture behavioral of entity xil_defaultlib.EDECC [edecc_default]
+Compiling architecture behavioral of entity xil_defaultlib.edecc_tb
+Built simulation snapshot EDECC_tb_behav

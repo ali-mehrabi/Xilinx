@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TIMING-MADD-REV02.srcs/sources_1/new/CURVE_PACK.vhd" \
+"../../../../TIMING-MADD-REV02.srcs/sources_1/new/INTMM.vhd" \
+"../../../../TIMING-MADD-REV02.srcs/sources_1/new/LUTY.vhd" \
+"../../../../TIMING-MADD-REV02.srcs/sources_1/new/LUT_P.vhd" \
+"../../../../TIMING-MADD-REV02.srcs/sources_1/new/MADD.vhd" \
+"../../../../TIMING-MADD-REV02.srcs/sources_1/new/REDUCER.vhd" \
+"../../../../TIMING-MADD-REV02.srcs/sim_1/new/INTMM_tb.vhd" \
+
+# Do not sort compile order
+nosort

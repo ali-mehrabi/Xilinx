@@ -1,0 +1,7 @@
+Running: xsim.dir/EDPA_tb_behav/xsimk.exe -simmode gui -wdb EDPA_tb_behav.wdb -simrunnum 0 -socket 61991
+Design successfully loaded
+Design Loading Memory Usage: 6400 KB (Peak: 6400 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 7164 KB (Peak: 7164 KB)
+Simulation CPU Usage: 234 ms
